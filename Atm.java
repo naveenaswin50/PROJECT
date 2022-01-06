@@ -1,7 +1,8 @@
+package Zoho;
 import java.util.*;
 class Admin{
     static Scanner sc;
-    static int amount[]={100,100,100,100};
+    static int amount[]={0,10,2,0};
     static Admin ad=new Admin();
     void addmoney(){
         sc=new Scanner(System.in);
@@ -89,28 +90,27 @@ class Customer{
         if((a==0&&b==0)){
         if(dra<bal[i]){
         if(temp<=TA){
-            for(;dra!=0;){
-                if(2000<=dra && Admin.amount[0]>0){
+                while(2000<=dra && Admin.amount[0]>0){
                     dra=dra-2000;
                     with[0]++;
                     Admin.amount[0]--;
                 }
-                else if(500<=dra && Admin.amount[1]>0){
+                while(500<=dra && Admin.amount[1]>0){
                     dra=dra-500;
                     with[1]++;
                     Admin.amount[1]--;
                 }
-                else if(200<=dra && Admin.amount[2]>0){
+                while(200<=dra && Admin.amount[2]>0){
                     dra=dra-200;
                     with[2]++;
                     Admin.amount[2]--;
                 }
-                else if(100<=dra && Admin.amount[3]>0){
+                while(100<=dra && Admin.amount[3]>0){
                     dra=dra-100;
                     with[3]++;
                     Admin.amount[3]--;
                 }
-            }if(Admin.amount[0]>=0&&Admin.amount[1]>=0&&Admin.amount[2]>=0&&Admin.amount[3]>=0){
+            if(Admin.amount[0]>=0&&Admin.amount[1]>=0&&Admin.amount[2]>=0&&Admin.amount[3]>=0&&dra==0){
             bal[i]-=temp;
         System.out.println("Your amount is sucessfully withdraval");
         System.out.println("2000  ->  "+with[0]);
@@ -122,7 +122,19 @@ class Customer{
         str[i]+=temp+" amount is debit and your closing balance "+bal[i]+",";
         if(c==0){
             cu.Clogin(i);
-        }}
+        }
+    }else{
+        Admin.amount[0]+=with[0];
+        Admin.amount[1]+=with[1];
+        Admin.amount[2]+=with[2];
+        Admin.amount[3]+=with[3];
+        System.out.println("Insufficient balance in ATM");
+        System.out.print("\n\n\tPress 0 and enter");
+        int c=sc.nextInt();
+        if(c==0){
+            cu.Clogin(i);
+        }
+    }
     }else{
         System.out.println("Insufficient balance in ATM");
         System.out.print("\n\n\tPress 0 and enter");
@@ -131,7 +143,7 @@ class Customer{
             cu.Clogin(i);
         }
     }
-}else{
+    }else{
     System.out.println("Insufficient balance in Account");
     System.out.print("\n\n\tPress 0 and enter");
         int c=sc.nextInt();
@@ -320,7 +332,7 @@ class ATM {
             case 1:
                 System.out.print("Enter your Admin username : ");
                 sc.nextLine();
-                String name=sc.next();
+                String name=sc.nextLine();
                     System.out.print("Enter your Admin password : ");
                     String pass=sc.nextLine();
                     if(pass.equals("123456")&&name.equals("login")){
