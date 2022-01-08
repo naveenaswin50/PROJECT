@@ -205,7 +205,7 @@ class Customer{
         Admin.amount[3]+=c100;
         if(c2000*2000+c500*500+c200*200+c100*100==dep){
             System.out.println("\n\tAmount deposited Sucessfully!!...");
-            str[i]+=dep+" amount is credit and your closing balance "+(bal[i]+dep)+",";
+            str[i]+=dep+" amount is credit and your closing balance "+(bal[i])+",";
             System.out.println("\n\n\tPress 0 and enter");
         int c=sc.nextInt();
         if(c==0){
