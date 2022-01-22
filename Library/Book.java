@@ -268,9 +268,7 @@ class Book {
                                 break l;
                             }else{
                                 returnday-=15;
-                                int n=returnday/10+1;
-                                int r=returnday%10+1;
-                                int res=(((int)Math.pow(2,n)*10)-20)+(r*n*2);
+                                int res=returnday*FineperDay;
                                 if(res>(int)boks.get(bookind).book_price*0.8){
                                     System.out.println("Your Fine Amount is : "+(int)boks.get(bookind).book_price*0.8);
                                     System.out.println("This Amount is debited in your wallet!!..");
