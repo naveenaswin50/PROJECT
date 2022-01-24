@@ -307,7 +307,7 @@ class Customer{
 class ATM {
     static Scanner sc;
     static boolean f=false;
-    static String cusname[]={"Naveen","Nithish"};
+    static String cusname[]={"user 1","user 2"};
     static int pin[]={2345,5432};
     void mainfun(){
         System.out.print("\033[H\033[2J");  
@@ -334,7 +334,7 @@ class ATM {
                 String name=sc.nextLine();
                     System.out.print("Enter your Admin password : ");
                     String pass=sc.nextLine();
-                    if(pass.equals("123456")&&name.equals("login")){
+                    if(pass.equals("123456")&&name.equals("admin")){
                         Admin z=new Admin();
                         z.Alogin();
                         f=true;
