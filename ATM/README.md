@@ -1,0 +1,13 @@
+#  ATM
+
+ADMIN 
+
+USERNAME : login
+
+PASSWORD : 123456
+
+USER
+
+USERNAME : Naveen
+
+PASSWORD : 2345
