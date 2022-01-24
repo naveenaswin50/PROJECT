@@ -17,7 +17,7 @@ public class Amazon {
                 String name=sc.next();
                 System.out.print("Enter your passcode : ");
                 int pass=sc.nextInt();
-                if(name.equals("login")&&pass==1234){
+                if(name.equals("admin")&&pass==1234){
                     Admin x=new Admin();
                     x.mainfun();   
                 }else{
@@ -50,7 +50,7 @@ public class Amazon {
         Product.pl1.add(new Product("adiads",98,"m100",1500,"9 months",200,"2 days"));
         Product.pl1.add(new Product("redmi tv",97,"m100",25000,"12 months",220," nil"));
         Product.pl1.add(new Product("mac book",96,"m100",75000,"18 months",300," nil"));
-        Marchent.ls.add(new Marchent("naveen","m100",1234,"ok"));
+        Marchent.ls.add(new Marchent("user","m100",1234,"ok"));
         System.out.print("\033[H\033[2J");  
         System.out.flush();
         z.mainfun();
