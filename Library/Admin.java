@@ -12,7 +12,7 @@ public class Admin {
     static List<Admin>adm=new ArrayList<>();
     static Scanner sc=new Scanner(System.in);
     static{
-        adm.add(new Admin("admin","adm","123"));
+        adm.add(new Admin("admin","admin@gmail.com","123"));
     }
     public Admin(){}
     void cls(){
