@@ -20,7 +20,7 @@ class Borrower {
     static Scanner sc=new Scanner(System.in);
     static List<Borrower>bor= new ArrayList<>();
     static {
-        bor.add(new Borrower("naveen", "nav", "123"));
+        bor.add(new Borrower("user", "user@gmail.com", "123"));
         // bor.get(0).list_of_bor+="123 book is Borrowed Succesfully\n123 book is Borrowed Succesfully\n123 book is Borrowed Succesfully\n123 book is Borrowed Succesfully";
     }
     void cls(){
