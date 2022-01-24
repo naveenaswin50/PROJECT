@@ -1,0 +1,7 @@
+#  TRAIN
+
+USER 
+
+USERNAME : user1
+
+PASSWORD : 1000
