@@ -14,7 +14,7 @@ class Customer{
     ArrayList<String> tickets = new ArrayList<String>();
 
     static{
-        customers.add(new Customer("Naveen E", "nav1", "9994436900", true, 1000, 25, 0));
+        customers.add(new Customer("user1", "user1", "9994436900", true, 1000, 25, 0));
     }
 
     public Customer(String name,String user_id,String phone,boolean is_male,int  pin,int age, int _index){
