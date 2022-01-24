@@ -307,7 +307,7 @@ class Customer{
 class ATM {
     static Scanner sc;
     static boolean f=false;
-    static String cusname[]={"user 1","user 2"};
+    static String cusname[]={"user1","user2"};
     static int pin[]={2345,5432};
     void mainfun(){
         System.out.print("\033[H\033[2J");  
