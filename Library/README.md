@@ -2,12 +2,12 @@
 
 ADMIN
 
-USERNAME : admin@gmail.com
+USERNAME : admin
 
 PASSWORD : 123
 
 USER 
 
-USERNAME : user@gmail.com
+USERNAME : user
 
 PASSWORD : 123
