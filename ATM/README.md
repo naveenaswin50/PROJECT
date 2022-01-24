@@ -2,12 +2,12 @@
 
 ADMIN 
 
-USERNAME : login
+USERNAME : admin
 
 PASSWORD : 123456
 
 USER
 
-USERNAME : Naveen
+USERNAME : user1
 
 PASSWORD : 2345
