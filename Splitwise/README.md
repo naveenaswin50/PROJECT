@@ -1,13 +1,13 @@
 # SPLITWISE
 
-EMAILID 1 : user1
+EMAIL-ID 1 : user1
 
 PASSWORD : 123
 
-EMAILID 2 : user2
+EMAIL-ID 2 : user2
 
 PASSWORD : 123
 
-EMAILID 3: user3
+EMAIL-ID 3: user3
 
 PASSWORD : 123
