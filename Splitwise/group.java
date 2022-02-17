@@ -1,4 +1,3 @@
-package Zoho.Splitwise;
 import java.util.*;
 public class group {
     static Scanner sc=new Scanner(System.in);
