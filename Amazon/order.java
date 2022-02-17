@@ -1,4 +1,3 @@
-package Zoho.Amazon;
 import java.util.*;
 public class order {
     static Scanner sc;
