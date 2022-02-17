@@ -1,4 +1,3 @@
-package Zoho.Train;
 import java.util.*;
 class bookingh{
     public static void main(String[] args){
