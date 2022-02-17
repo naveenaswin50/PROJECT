@@ -1,4 +1,3 @@
-package Zoho.Librarymanagment;
 import java.util.*;
 public class Admin {
     String name;
