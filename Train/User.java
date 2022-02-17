@@ -1,4 +1,3 @@
-package Zoho.Train;
 import java.util.*;
 class Customer{
     static Scanner s = new Scanner(System.in);
