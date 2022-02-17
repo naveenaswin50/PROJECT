@@ -1,4 +1,3 @@
-package Zoho.Splitwise;  
 public class payment {
     String Gname;
     String Reqname;
